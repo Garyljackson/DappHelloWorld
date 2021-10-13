@@ -14,15 +14,9 @@ contract("HelloWorld", (accounts) => {
 
   it("should update the greeting", async () => {
     const HelloWorldInstance = await HelloWorld.deployed();
-
     await HelloWorldInstance.setGreeting("Howzit!");
 
     const greeting = await HelloWorldInstance.greeting.call();
-
-    assert.equal(
-      greeting,
-      "Howzit!",
-      "The greeting was not updated"
-    );
+    assert.equal(greeting, "Howzit!", "The greeting was not updated");
   });
 });
