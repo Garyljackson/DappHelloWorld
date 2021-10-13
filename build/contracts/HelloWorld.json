@@ -1,0 +1,133 @@
+{
+  "contractName": "HelloWorld",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloWorld.sol\":{\"keccak256\":\"0x54ffa9dd93405f2700a4283247f7c2b5f1cb58ea7a60599818cdd5ecbecedb38\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://884a20ab87f24c5ba8fad10db370101a4f0689dbb866c54ccb92fbf435b2faa7\",\"dweb:/ipfs/QmcBkGVa9uidUBYt8Cki7CQDYqA81NqJEHrQ5krZXWvFgv\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220815d712f870ff7626c1c40fe273b698b30357056936c42d4a83a83e1e766b12a64736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220815d712f870ff7626c1c40fe273b698b30357056936c42d4a83a83e1e766b12a64736f6c63430008090033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "68:250:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "68:250:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\ncontract HelloWorld {\r\n    // string public greeting;\r\n\r\n    // constructor() {\r\n    //     // greeting = \"Initial Greeting\";\r\n    // }\r\n\r\n    // function setGreeting(string memory _greeting) public {\r\n    //     // greeting = _greeting;\r\n    // }\r\n}\r\n",
+  "sourcePath": "D:\\Storage\\Github\\DappHelloWorld\\contracts\\HelloWorld.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "HelloWorld",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "HelloWorld",
+        "nameLocation": "77:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "68:250:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:287:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "HelloWorld",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "HelloWorld",
+        "nameLocation": "77:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "68:250:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:287:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x4d84466F036F69e5d3CE09e7f67b816eB43d3530",
+      "transactionHash": "0xa9dae91d48a540174b16cb68e0c94c73445a43911e928bd1cd772f3394d368b4"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-13T04:22:22.040Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
